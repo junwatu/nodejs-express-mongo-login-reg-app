@@ -1,8 +1,10 @@
-== Node Login Registration App ==
+Node Login Registration App
+===========================
 
 Login registration application build with node.js, express 3, mongoose and twitter bootstrap.
 
 Installation
+------------
 
 1. Set environment variable
 
