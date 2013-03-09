@@ -19,8 +19,12 @@ If mongodb located on remote server, you should change parameters in server.js f
     app.set('MONGODB_USERNAME', 'your_username');
     app.set('MONGODB_PASSWORD', 'your_password');
 
-3. Run node server
+3. Install depedencies with npm
 
+    $ npm install
+
+4. Run node
+	
     $ node server.js
 
 
