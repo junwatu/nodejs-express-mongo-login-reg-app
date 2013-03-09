@@ -8,14 +8,7 @@
 		"consolidate": "0.5.x",
 		"underscore": "1.4.x",
 		"mongoose": "3.4.x",
-        "jade": ">= 0.0.1",
-        "connect":">= 1.9.1"
-	},
-	"subdomain": "nodeapps.junwatu",
-	"scripts": {
-		"start": "node server"
-	},
-	"engines": {
-		"node": "0.8.x"
+        	"jade": ">= 0.0.1",
+        	"connect":">= 1.9.1"
 	}
 }
