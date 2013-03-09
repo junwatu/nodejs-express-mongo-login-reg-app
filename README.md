@@ -1,24 +1,24 @@
-== NodeApp ==
+== Node Login Registration App ==
 
-Koneksi NodeJs dengan MongoDB menggunakan Mongoose dengan Bootstrap style buat UI-nya.
+Login registration application build with node.js, express 3, mongoose and twitter bootstrap.
 
-Instalasi
+Installation
 
-1. Set environment variabel
+1. Set environment variable
 
     $ export NODE_ENV=development
 
-2. Jalankan database MongoDB sesuai dengan sistem anda.
+2. Run mongodb database
 
-Jika MongoDB tidak berjalan pada komputer lokal, setting parameter
-bisa diset pada file server.js
+If mongodb located on remote server, you should change parameters in server.js file.
 
-    app.set('MONGODB_HOST', 'domainmu.com');
-    app.set('MONGODB_PORT', '27017');
-    app.set('MONGODB_USERNAME', 'usernamemu');
-    app.set('MONGODB_PASSWORD', 'passwordmu');
+    app.set('MONGODB_HOST', 'yourdomain.com');
+    app.set('MONGODB_PORT', 'remote_mongodb_port');
+    app.set('MONGODB_USERNAME', 'your_username');
+    app.set('MONGODB_PASSWORD', 'your_password');
 
-3. Untuk menjalankan server node ketik
+3. Run node server
 
     $ node server.js
+
 
